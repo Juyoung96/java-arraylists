@@ -9,9 +9,9 @@ import java.util.ArrayList;
 
 public class ArrayListsTest {
   
-  public static printList( ArrayList a ) {
+  public static void printList( ArrayList a ) {
     
-    System.out.println( "The list size is now: " + a.size(); + " elements long." );
+    System.out.println( "The list size is now: " + a.size() + " elements long." );
     for (int i=0; i<a.size(); i++ ) {
       System.out.println( a.get(i) + ", " );
     }
@@ -36,7 +36,7 @@ public class ArrayListsTest {
   list.add( 23 );      //[3,6,13,19,23]
   list.add( 2,235 );   //[3,6,235,13,19,23]
   list.set( 0,17);     //[3,6,235,13,19,23]
-  printlist( list );
+  printList( list );
      
   } // End main method
   
