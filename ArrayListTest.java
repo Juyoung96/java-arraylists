@@ -13,7 +13,7 @@ public class ArrayListsTest {
     
     System.out.println( "The list size is now: " + a.size() + " elements long." );
     for (int i=0; i<a.size(); i++ ) {
-      System.out.println( a.get(i) + ", " );
+      System.out.print( a.get(i) + ", " );
     }
     
   } // End pringList()
